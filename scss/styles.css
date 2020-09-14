@@ -1,8 +1,54 @@
-body {
-  color: blue !important; }
+.about {
+  margin: 0 -25%;
+  padding: 0 25%; }
+  .about .about__cutoff {
+    margin: 0 -25%;
+    padding: 0;
+    background-image: url("../assets/svg/about_cutoff.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100vw; }
+  .about .about__content {
+    background-color: #2B4564; }
 
-.tester {
-  color: yellow;
-  font-size: 50px; }
+.landing {
+  margin: 0 -25% -200px;
+  background-image: url("../assets/img/bg_landing.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  text-transform: uppercase;
+  height: calc(100vh + 200px); }
+  .landing .landing__darken {
+    width: 100vw;
+    height: calc(100vh + 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4); }
+    .landing .landing__darken .landing__darken__subtitle {
+      margin-top: -200px;
+      font-size: 1.5rem;
+      line-height: 40%; }
+    .landing .landing__darken .landing__darken__title {
+      font-size: 6rem; }
+    .landing .landing__darken .landing__darken__subtitle,
+    .landing .landing__darken .landing__darken__title {
+      font-family: "Roboto", sans-serif; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+  color: #fff;
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  padding: 0 16.6666666667%; }
 
 /*# sourceMappingURL=styles.css.map */

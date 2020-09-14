@@ -1,0 +1,36 @@
+@import "typography";
+
+.landing {
+    margin: 0 percentage(-3/12) -200px;
+    background-image: url("../assets/img/bg_landing.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-transform: uppercase;
+    height: calc(100vh + 200px);
+
+    .landing__darken {
+        width: 100vw;
+        height: calc(100vh + 200px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.4);
+
+        .landing__darken__subtitle {
+            margin-top: -200px;
+            font-size: 1.5rem;
+            line-height: 40%;
+        }
+
+        .landing__darken__title {
+            font-size: 6rem;
+        }
+
+        .landing__darken__subtitle,
+        .landing__darken__title {
+            font-family: $titles-font;
+        }
+    }
+}

@@ -1,8 +1,21 @@
-body {
-    color: blue !important;
+@import "about";
+@import "colors";
+@import "landing";
+@import "typography";
+
+html {
+    scroll-behavior: smooth;
 }
 
-.tester {
-    color: yellow;
-    font-size: 50px;
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    //cursor: none;
+    color: #fff;
+    font-family: $body-font;
+}
+
+.container {
+    padding: 0 percentage(2/12);
 }

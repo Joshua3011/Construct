@@ -1,0 +1,20 @@
+@import "colors";
+
+.about {
+    margin: 0 percentage(-3/12);
+    padding: 0 percentage(3/12);
+
+    .about__cutoff {
+        margin: 0 percentage(-3/12);
+        padding: 0;
+        background-image: url("../assets/svg/about_cutoff.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        width: 100vw;
+    }
+
+    .about__content {
+        background-color: $about-bg;
+    }
+}
