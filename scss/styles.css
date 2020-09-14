@@ -1,16 +1,78 @@
-.about {
+.about-cutoff {
   margin: 0 -25%;
-  padding: 0 25%; }
-  .about .about__cutoff {
-    margin: 0 -25%;
-    padding: 0;
-    background-image: url("../assets/svg/about_cutoff.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    width: 100vw; }
-  .about .about__content {
-    background-color: #2B4564; }
+  padding: 0;
+  background-image: url("../assets/svg/about_cutoff.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100vw; }
+
+.about-cutoff--final {
+  transform: rotate(180deg); }
+
+.about {
+  margin: -20px -25% 0;
+  padding: 0 25%;
+  background-color: #2B4564; }
+  .about .about__content__sumup {
+    padding-left: 0;
+    line-height: 180%; }
+  .about .about__content--final {
+    padding: 5rem 0; }
+
+.impression {
+  margin-top: 5rem;
+  text-align: center; }
+  .impression .impression__title {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    padding-bottom: 2rem; }
+  .impression .impression__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px; }
+    .impression .impression__gallery .impression__gallery__item {
+      width: 300px;
+      height: 300px;
+      background-color: #2B4564;
+      margin: 50px 0;
+      background-size: cover;
+      background-position: center; }
+    .impression .impression__gallery .impression__gallery__item--1 {
+      background-image: url("/assets/img/picture1.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--2 {
+      background-image: url("/assets/img/picture2.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--3 {
+      background-image: url("/assets/img/picture3.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--4 {
+      background-image: url("/assets/img/picture4.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--5 {
+      background-image: url("/assets/img/picture5.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--6 {
+      background-image: url("/assets/img/picture6.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--7 {
+      background-image: url("/assets/img/picture7.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--8 {
+      background-image: url("/assets/img/picture8.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--9 {
+      background-image: url("/assets/img/picture9.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--10 {
+      background-image: url("/assets/img/picture10.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--11 {
+      background-image: url("/assets/img/picture11.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--12 {
+      background-image: url("/assets/img/picture12.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--13 {
+      background-image: url("/assets/img/picture13.jpg");
+      background-position: right; }
+    .impression .impression__gallery .impression__gallery__item--14 {
+      background-image: url("/assets/img/picture14.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--15 {
+      background-image: url("/assets/img/picture15.jpg"); }
+    .impression .impression__gallery .impression__gallery__item--16 {
+      background-image: url("/assets/img/picture16.jpg"); }
 
 .landing {
   margin: 0 -25% -200px;
@@ -46,9 +108,24 @@ body {
   padding: 0;
   font-size: 0.875rem;
   color: #fff;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  background-color: #262526; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0; }
 
 .container {
   padding: 0 16.6666666667%; }
+
+ul,
+li {
+  list-style-type: none; }
 
 /*# sourceMappingURL=styles.css.map */

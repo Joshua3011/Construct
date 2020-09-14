@@ -1,0 +1,94 @@
+@import "typography";
+
+.impression {
+    margin-top: 5rem;
+    text-align: center;
+
+    .impression__title {
+        text-transform: uppercase;
+        font-family: $titles-font;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .impression__gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 100px;
+
+        .impression__gallery__item {
+            width: 300px;
+            height: 300px;
+            background-color: $about-bg;
+            margin: 50px 0;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .impression__gallery__item--1 {
+            background-image: url("/assets/img/picture1.jpg");
+        }
+
+        .impression__gallery__item--2 {
+            background-image: url("/assets/img/picture2.jpg");
+        }
+
+        .impression__gallery__item--3 {
+            background-image: url("/assets/img/picture3.jpg");
+        }
+
+        .impression__gallery__item--4 {
+            background-image: url("/assets/img/picture4.jpg");
+        }
+
+        .impression__gallery__item--5 {
+            background-image: url("/assets/img/picture5.jpg");
+        }
+
+        .impression__gallery__item--6 {
+            background-image: url("/assets/img/picture6.jpg");
+        }
+
+        .impression__gallery__item--7 {
+            background-image: url("/assets/img/picture7.jpg");
+        }
+
+        .impression__gallery__item--8 {
+            background-image: url("/assets/img/picture8.jpg");
+        }
+
+        .impression__gallery__item--9 {
+            background-image: url("/assets/img/picture9.jpg");
+        }
+
+        .impression__gallery__item--10 {
+            background-image: url("/assets/img/picture10.jpg");
+        }
+
+        .impression__gallery__item--11 {
+            background-image: url("/assets/img/picture11.jpg");
+        }
+
+        .impression__gallery__item--12 {
+            background-image: url("/assets/img/picture12.jpg");
+        }
+
+        .impression__gallery__item--13 {
+            background-image: url("/assets/img/picture13.jpg");
+            background-position: right;
+        }
+
+        .impression__gallery__item--14 {
+            background-image: url("/assets/img/picture14.jpg");
+        }
+
+        .impression__gallery__item--15 {
+            background-image: url("/assets/img/picture15.jpg");
+        }
+
+        .impression__gallery__item--16 {
+            background-image: url("/assets/img/picture16.jpg");
+        }
+    }
+}
