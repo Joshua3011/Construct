@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca280412-dc05-4005-852d-fb2a17b3adc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/picture1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/picture9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/e911257555dd8e083198c252fac4290814828152/_impression.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_impression.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/e911257555dd8e083198c252fac4290814828152/_about.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/e911257555dd8e083198c252fac4290814828152/_about.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/e911257555dd8e083198c252fac4290814828152/_colors.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/e911257555dd8e083198c252fac4290814828152/_colors.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/e911257555dd8e083198c252fac4290814828152/_impression.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/e911257555dd8e083198c252fac4290814828152/_impression.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/.sass-cache/e911257555dd8e083198c252fac4290814828152/_toplevel.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/e911257555dd8e083198c252fac4290814828152/_toplevel.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_impression.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_impression.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_toplevel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_toplevel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.css.map" afterDir="false" />
@@ -42,21 +23,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="86" column="82" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="82" />
+            <state relative-caret-position="300">
+              <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
               <folding>
                 <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_impression.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
+            <state relative-caret-position="461">
+              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -64,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_toplevel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="30">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -82,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="255">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -118,11 +110,12 @@
         <option value="$PROJECT_DIR$/assets/svg/about_cutoffAsset 1.svg" />
         <option value="$PROJECT_DIR$/assets/svg/about_cutoff.svg" />
         <option value="$PROJECT_DIR$/scss/_landing.scss" />
-        <option value="$PROJECT_DIR$/scss/_toplevel.scss" />
         <option value="$PROJECT_DIR$/scss/_colors.scss" />
         <option value="$PROJECT_DIR$/scss/_about.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/_impression.scss" />
+        <option value="$PROJECT_DIR$/scss/_toplevel.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/_footer.scss" />
       </list>
     </option>
   </component>
@@ -151,12 +144,6 @@
               <item name="Construct" type="b2602c69:ProjectViewProjectNode" />
               <item name="Construct" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Construct" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Construct" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Construct" type="b2602c69:ProjectViewProjectNode" />
@@ -223,12 +210,12 @@
       <option name="presentableId" value="Default" />
       <updated>1600079800600</updated>
       <workItem from="1600079802031" duration="93000" />
-      <workItem from="1600079925160" duration="16697000" />
+      <workItem from="1600079925160" duration="17275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16790000" />
+    <option name="totallyTimeSpent" value="17368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="735" extended-state="6" />
@@ -283,9 +270,6 @@
     <entry file="file://$PROJECT_DIR$/scss/_landing.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -327,10 +311,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_impression.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_toplevel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -343,26 +334,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_about.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="86" column="82" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="82" />
+        <state relative-caret-position="300">
+          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
           <folding>
             <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_impression.scss">
+    <entry file="file://$PROJECT_DIR$/scss/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
