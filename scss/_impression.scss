@@ -1,5 +1,11 @@
 @import "typography";
 
+.impression-imagery {
+    position: absolute;
+    max-height: 350px;
+    left: percentage(2/12);
+}
+
 .impression {
     margin-top: 5rem;
     text-align: center;

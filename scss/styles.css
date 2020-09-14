@@ -10,6 +10,11 @@
 .about-cutoff--final {
   transform: rotate(180deg); }
 
+.about-imagery {
+  position: absolute;
+  max-height: 600px;
+  right: 16.6666666667%; }
+
 .about {
   margin: -20px -25% 0;
   padding: 0 25%;
@@ -29,6 +34,11 @@
   align-items: center;
   border-top: 1px solid #fff;
   text-align: center; }
+
+.impression-imagery {
+  position: absolute;
+  max-height: 350px;
+  left: 16.6666666667%; }
 
 .impression {
   margin-top: 5rem;
