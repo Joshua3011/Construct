@@ -184,6 +184,13 @@
     .landing .landing__darken .landing__darken__subtitle,
     .landing .landing__darken .landing__darken__title {
       font-family: "Roboto", sans-serif; }
+    .landing .landing__darken .landing__darken__imagery {
+      position: absolute;
+      bottom: 5vh;
+      height: 40px; }
+      @media only screen and (min-width: 768px) {
+        .landing .landing__darken .landing__darken__imagery {
+          height: 50px; } }
 
 html {
   scroll-behavior: smooth; }
