@@ -1,0 +1,40 @@
+@import "about";
+@import "colors";
+@import "footer";
+@import "impression";
+@import "landing";
+@import "typography";
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    color: #fff;
+    font-family: $body-font;
+    background-color: $body-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $titles-font;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.container {
+    padding: 0 percentage(2/12);
+}
+
+ul,
+li {
+    list-style-type: none;
+}

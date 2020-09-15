@@ -1,0 +1,66 @@
+@import "colors";
+
+.about-cutoff {
+    margin: 0 percentage(-3/12);
+    padding: 0;
+    background-image: url("../assets/svg/about_cutoff4kv2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100vw;
+}
+
+.about-cutoff--final {
+    transform: rotate(180deg);
+}
+
+.about-imagery {
+    position: absolute;
+    max-height: 250px;
+    right: percentage(1/12);
+
+    @media only screen and (min-width: 768px) {
+        max-height: 300px;
+        right: percentage(1.5/12);
+    }
+
+    @media only screen and (min-width: 992px) {
+        max-height: 350px;
+        right: percentage(2/12);
+    }
+
+    @media only screen and(min-width: 1200px) {
+        max-height: 450px;
+    }
+
+    @media only screen and(min-width: 1440px) {
+        right: percentage(3/12);
+    }
+}
+
+.about {
+    margin: -20px percentage(-3/12) 0;
+    padding: 5rem percentage(3/12) 0;
+    background-color: $about-bg;
+
+    @media only screen and (min-width: 768px) {
+        padding: 2rem percentage(3/12) 0;
+    }
+
+    @media only screen and (min-width: 992px) {
+        padding: 0 percentage(3/12);
+    }
+
+    @media only screen and (min-width: 992px) {
+        padding: 0 percentage(4/12);
+    }
+
+    .about__content__sumup {
+        padding-left: 0;
+        line-height: 180%;
+    }
+
+    .about__content--final {
+        padding: 2rem 0;
+    }
+}
