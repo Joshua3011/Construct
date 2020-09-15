@@ -60,8 +60,17 @@
 
 .impression-imagery {
   position: absolute;
-  max-height: 350px;
-  left: 16.6666666667%; }
+  max-height: 250px;
+  left: 25%; }
+  @media only screen and (min-width: 568px) {
+    .impression-imagery {
+      left: 16.6666666667%; } }
+  @media only screen and (min-width: 992px) {
+    .impression-imagery {
+      max-height: 300px; } }
+  @media only screen and (min-width: 1200px) {
+    .impression-imagery {
+      max-height: 350px; } }
 
 .impression {
   margin-top: 5rem;
@@ -69,53 +78,75 @@
   .impression .impression__title {
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
-    padding-bottom: 2rem; }
+    font-size: 1.5rem; }
+    @media only screen and (min-width: 568px) {
+      .impression .impression__title {
+        font-size: 2rem;
+        padding-bottom: 2rem; } }
   .impression .impression__gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 100px; }
+    justify-content: center;
+    padding-top: 2rem;
+    margin: 0 -25%; }
+    @media only screen and (min-width: 768px) {
+      .impression .impression__gallery {
+        padding-top: 100px; } }
+    @media only screen and (min-width: 992px) {
+      .impression .impression__gallery {
+        margin: 0 -8.3333333333%; } }
     .impression .impression__gallery .impression__gallery__item {
-      width: 300px;
+      width: 100vw;
       height: 300px;
       background-color: #2C4565;
-      margin: 15px 0;
       background-size: cover;
       background-position: center; }
+      @media only screen and (min-width: 568px) {
+        .impression .impression__gallery .impression__gallery__item {
+          width: 200px;
+          height: 200px;
+          margin: 15px; } }
+      @media only screen and (min-width: 1200px) {
+        .impression .impression__gallery .impression__gallery__item {
+          width: 250px;
+          height: 250px; } }
+      @media only screen and (min-width: 1400px) {
+        .impression .impression__gallery .impression__gallery__item {
+          width: 300px;
+          height: 300px; } }
     .impression .impression__gallery .impression__gallery__item--1 {
-      background-image: url("/assets/img/picture1.jpg"); }
+      background-image: url("../assets/img/picture1.jpg"); }
     .impression .impression__gallery .impression__gallery__item--2 {
-      background-image: url("/assets/img/picture2.jpg"); }
+      background-image: url("../assets/img/picture2.jpg"); }
     .impression .impression__gallery .impression__gallery__item--3 {
-      background-image: url("/assets/img/picture3.jpg"); }
+      background-image: url("../assets/img/picture3.jpg"); }
     .impression .impression__gallery .impression__gallery__item--4 {
-      background-image: url("/assets/img/picture4.jpg"); }
+      background-image: url("../assets/img/picture4.jpg"); }
     .impression .impression__gallery .impression__gallery__item--5 {
-      background-image: url("/assets/img/picture5.jpg"); }
+      background-image: url("../assets/img/picture5.jpg"); }
     .impression .impression__gallery .impression__gallery__item--6 {
-      background-image: url("/assets/img/picture6.jpg"); }
+      background-image: url("../assets/img/picture6.jpg"); }
     .impression .impression__gallery .impression__gallery__item--7 {
-      background-image: url("/assets/img/picture7.jpg"); }
+      background-image: url("../assets/img/picture7.jpg"); }
     .impression .impression__gallery .impression__gallery__item--8 {
-      background-image: url("/assets/img/picture8.jpg"); }
+      background-image: url("../assets/img/picture8.jpg"); }
     .impression .impression__gallery .impression__gallery__item--9 {
-      background-image: url("/assets/img/picture9.jpg"); }
+      background-image: url("../assets/img/picture9.jpg"); }
     .impression .impression__gallery .impression__gallery__item--10 {
-      background-image: url("/assets/img/picture10.jpg"); }
+      background-image: url("../assets/img/picture10.jpg"); }
     .impression .impression__gallery .impression__gallery__item--11 {
-      background-image: url("/assets/img/picture11.jpg"); }
+      background-image: url("../assets/img/picture11.jpg"); }
     .impression .impression__gallery .impression__gallery__item--12 {
-      background-image: url("/assets/img/picture12.jpg"); }
+      background-image: url("../assets/img/picture12.jpg"); }
     .impression .impression__gallery .impression__gallery__item--13 {
-      background-image: url("/assets/img/picture13.jpg");
+      background-image: url("../assets/img/picture13.jpg");
       background-position: right; }
     .impression .impression__gallery .impression__gallery__item--14 {
-      background-image: url("/assets/img/picture14.jpg"); }
+      background-image: url("../assets/img/picture14.jpg"); }
     .impression .impression__gallery .impression__gallery__item--15 {
-      background-image: url("/assets/img/picture15.jpg"); }
+      background-image: url("../assets/img/picture15.jpg"); }
     .impression .impression__gallery .impression__gallery__item--16 {
-      background-image: url("/assets/img/picture16.jpg"); }
+      background-image: url("../assets/img/picture16.jpg"); }
 
 .landing {
   margin: 0 -25% -200px;
