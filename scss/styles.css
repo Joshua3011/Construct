@@ -112,10 +112,19 @@
     background-color: rgba(0, 0, 0, 0.4); }
     .landing .landing__darken .landing__darken__subtitle {
       margin-top: -200px;
-      font-size: 1.5rem;
+      font-size: 1rem;
       line-height: 40%; }
+      @media only screen and (min-width: 568px) {
+        .landing .landing__darken .landing__darken__subtitle {
+          font-size: 1.5rem; } }
     .landing .landing__darken .landing__darken__title {
-      font-size: 6rem; }
+      font-size: 3rem; }
+      @media only screen and (min-width: 568px) {
+        .landing .landing__darken .landing__darken__title {
+          font-size: 4rem; } }
+      @media only screen and (min-width: 768px) {
+        .landing .landing__darken .landing__darken__title {
+          font-size: 6rem; } }
     .landing .landing__darken .landing__darken__subtitle,
     .landing .landing__darken .landing__darken__title {
       font-family: "Roboto", sans-serif; }
