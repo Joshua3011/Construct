@@ -49,14 +49,17 @@
     padding: 2rem 0; }
 
 .footer {
-  margin: 80px -25% 0;
+  margin: 0 -25%;
   padding: 0 25%;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid #fff;
+  background-color: #2C4565;
   text-align: center; }
+  @media only screen and (min-width: 568px) {
+    .footer {
+      margin-top: 40px; } }
 
 .impression-imagery {
   position: absolute;
